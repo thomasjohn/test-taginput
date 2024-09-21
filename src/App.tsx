@@ -1,3 +1,5 @@
+import TagInput from './components/TagInput'
+
 function App() {
   const onTagInputChange = (newValue: string) => {
     console.log(newValue)
@@ -6,7 +8,7 @@ function App() {
   return (
     <>
       <div className='w-full'>
-        App
+        <TagInput onChange={onTagInputChange} tagProposals={['React', 'Next.js', 'Tailwind', 'Java Script', 'CSS']} />
       </div>
     </>
   )
