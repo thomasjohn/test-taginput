@@ -1,3 +1,15 @@
+# TagInput Component
+
+Properties:
+
+- onChange: (newValue:string) => void
+- tagProposals: string[]
+
+```js
+<TagInput onChange={onTagInputChange} tagProposals={['React', 'Next.js', 'Tailwind', 'Java Script', 'CSS']} />
+
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
