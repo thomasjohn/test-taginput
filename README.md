@@ -10,6 +10,9 @@ Properties:
 
 ```
 
+Check the Console to see the current value of TagInput as text. The X in the tags has been implemented as SVG, so it is not visible in the returned value.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
